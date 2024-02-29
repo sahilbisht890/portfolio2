@@ -1,0 +1,187 @@
+li{
+
+    float: left;
+    list-style-type: none;
+    margin-right: 40px;
+    font-weight:600;
+
+}
+.head
+{
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 40px;
+
+
+}
+.profile_pic
+{
+    border-radius: 50%; /* Makes the image circular */
+    overflow: hidden;
+    box-shadow: -4px 8px 8px #C9D7DD;
+    margin-top: 0px;
+}
+
+
+.first_section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.name{
+    font-size: 40px;
+    margin-top: 10px;
+    font-weight: 600;
+}
+
+
+.input{
+    color: antiquewhite;
+    background-color: #EE4266;
+    border: none;
+    margin-top: 10px;
+    }
+
+
+
+
+
+.input{
+color: antiquewhite;
+background-color: #EE4266;
+width: 135px;
+height: 35px;
+border: none;
+margin-top: 10px;
+}
+
+
+
+.top
+{
+    margin-left: 184px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-right: 184px;
+    margin-top: 30px;
+
+
+}
+.post{
+display: flex;
+flex-direction: column;
+ background-color:#EEF5FF;
+padding-bottom: 15px;
+}
+
+
+
+.post_one , .post_two{
+    display: flex;;
+    flex-direction: column;
+    background-color: white;
+    margin: 5px;
+    padding: 14px;
+}
+
+.first_section{
+    margin-left:180px;
+    margin-right: 180px;
+}
+section{
+    margin-bottom: 20px;
+}
+
+.container
+{
+    display: flex;
+    justify-content: space-between;
+    margin-left:180px;
+    margin-right: 180px;
+    margin-top: 8px;
+
+}
+.name{
+
+    display: flex;
+    flex-direction: column;
+}
+p{
+    line-height: 0px;
+}
+
+h2{
+    line-height: 4px;
+}
+
+.works{
+    display: flex;
+    flex-direction: column;
+}
+.section_third
+{
+    margin-left:180px;
+    margin-right: 180px;
+}
+
+.works_content
+{
+    display: flex;
+    flex-direction: row;
+}
+hr{
+    margin: 20px;
+}
+img{
+    margin-right: 20px;
+}
+button{
+    color: white;
+}
+
+.mid{
+    display: flex;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    
+}
+.mid > p {
+    margin-left: 20px;
+    font-weight: 600;
+    color: gray;
+}
+
+.mid > button{
+    background-color: #1B1A55;
+    border-radius: 15px;
+    height: 30px;
+    width:50px;
+}
+
+.last_section
+{
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center;
+    flex-direction: column;
+    margin-top: 80px;
+    margin-bottom: 40px;
+}
+
+.social
+{
+    display: flex;
+}
+
+.social img{
+    width: 30px;
+    height: 30px;
+    margin-left: 12px;
+    margin-bottom: 5px;
+}
+.copyright
+{
+    font-size: 14px;
+}
